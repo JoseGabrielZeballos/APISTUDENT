@@ -22,7 +22,10 @@ namespace APISTUDENT.Models
         public string FirstName { get; set; }
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
-        private DateTime EnrollmenatDate1 { get; set; }
+        public DateTime EnrollmenatDate1 { get; set; }
+
+
+
 
 
 

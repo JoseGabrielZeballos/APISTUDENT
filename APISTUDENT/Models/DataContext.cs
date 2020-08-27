@@ -8,7 +8,7 @@ namespace APISTUDENT.Models
 {
     public class DataContext:DbContext
     {
-        public DataContext():base("Default connection")
+        public DataContext():base("Defaultconnection")
         {
                 
         }
