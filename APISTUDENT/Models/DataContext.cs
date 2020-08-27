@@ -8,7 +8,7 @@ namespace APISTUDENT.Models
 {
     public class DataContext:DbContext
     {
-        public DataContext():base("Defaultconnection")
+        public DataContext():base("Default connection")
         {
                 
         }
@@ -16,3 +16,5 @@ namespace APISTUDENT.Models
         public System.Data.Entity.DbSet<APISTUDENT.Models.Student> Students { get; set; }
     }
 }
+
+
