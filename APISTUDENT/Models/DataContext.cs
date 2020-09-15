@@ -8,7 +8,7 @@ namespace APISTUDENT.Models
 {
     public class DataContext:DbContext
     {
-        public DataContext():base("DefaultConnection")
+        public DataContext():base("DefaultConnection")             //ctor tap tpa
         {
                 
         }
